@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #ddd;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+#darkModeToggle {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.project-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px;
+  display: inline-block;
+  width: 45%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skill {
+  margin: 20px 0;
+}
+
+.skill-bar {
+  background-color: #ddd;
+  width: 100%;
+  height: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.skill-level {
+  background-color: #333;
+  height: 100%;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #f4f4f4;
+}
+
+header.dark-mode {
+  background-color: #1c1c1c;
+  color: #f4f4f4;
+}
+
+.project-card.dark-mode {
+  background-color: #1c1c1c;
+  color: #f4f4f4;
+  border: 1px solid #444;
+}
+
+footer.dark-mode {
+  background-color: #1c1c1c;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+input, textarea, button {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
