@@ -31,3 +31,9 @@ document.querySelector('.newsletter-form').addEventListener('submit', (event) =>
   alert('Thank you for signing up!');
 });
 
+// Example: Logging viewport size changes for debugging
+window.addEventListener('resize', () => {
+  console.log(`Viewport size: ${window.innerWidth}x${window.innerHeight}`);
+});
+
+
